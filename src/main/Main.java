@@ -5,6 +5,7 @@ import main.model.animals.Cat;
 import main.model.animals.Dog;
 import main.model.animals.Fish;
 import main.model.humanoids.Human;
+import main.model.humanoids.Humanoid;
 
 public class Main {
 
@@ -23,5 +24,9 @@ public class Main {
         Dog baileys = new Dog();
         mizso.getNewPet(baileys);
         mizso.getNewPet(cat_two);
+
+        baby.getNewPet(kitten);
+        baby.getNewPet(puppy);
+        baby.getNewPet(puppy);
     }
 }
