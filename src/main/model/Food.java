@@ -1,7 +1,10 @@
 package main.model;
 
 public enum Food {
-
-    // TODO
+    CEREALS,
+    MEAT,
+    DAIRY,
+    VEGGIES,
+    FRUIT
 
 }
