@@ -27,6 +27,6 @@ public class Main {
 
         baby.getNewPet(kitten);
         baby.getNewPet(puppy);
-        baby.getNewPet(puppy);
+        baby.getNewPet(babyFish);
     }
 }
