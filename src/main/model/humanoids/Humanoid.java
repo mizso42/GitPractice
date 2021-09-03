@@ -65,7 +65,7 @@ public class Humanoid implements HumanoidInterface {
 
     @Override
     public void getNewPet(Animal animal) {
-        // TODO
+        petsOwned.add(animal);
     }
 
     @Override
