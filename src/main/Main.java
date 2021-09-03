@@ -1,5 +1,6 @@
 package main;
 
+import main.model.Gender;
 import main.model.animals.Cat;
 import main.model.animals.Dog;
 import main.model.animals.Fish;
@@ -12,6 +13,15 @@ public class Main {
         Cat kitten = new Cat();
         Dog puppy = new Dog();
         Fish babyFish = new Fish();
-        
+
+        Human mizso = new Human();
+        mizso.setFirstName("Miklós");
+        mizso.setLastName("Janzsó");
+        mizso.setSad(false);
+        mizso.setGender(Gender.MALE);
+        Cat cat_two = new Cat();
+        Dog baileys = new Dog();
+        mizso.getNewPet(baileys);
+        mizso.getNewPet(cat_two);
     }
 }
