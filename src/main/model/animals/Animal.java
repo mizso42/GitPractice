@@ -30,19 +30,20 @@ public class Animal implements AnimalInterface {
         // TODO
     }
 
+
     @Override
     public void eat() {
-        // TODO
+        isHungry = false;
     }
 
     @Override
     public void makeSound() {
-        // TODO
+        System.out.println("Brum-brum");
     }
 
     @Override
     public void play() {
-        // TODO
+        System.out.println("Having fun");
     }
 
     public String getName() {

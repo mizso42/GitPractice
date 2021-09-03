@@ -21,16 +21,7 @@ public class Humanoid implements HumanoidInterface {
         // TODO
     }
 
-    public void eat (){
-        System.out.println("Nyam-nyam");
-    }
 
-    public void makeSound(){
-        System.out.println("Brum-brum");
-    }
-    public void play(){
-        System.out.println("Having fun");
-    }
     @Override
     public void getNewPet(Animal animal) {
         // TODO
